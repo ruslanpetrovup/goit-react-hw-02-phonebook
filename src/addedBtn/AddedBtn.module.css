@@ -1,0 +1,43 @@
+.title {
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.btnContainer {
+  background-color: white;
+  border: 2px solid slategray;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.btnOn {
+  width: 100px;
+  border: 1px solid steelblue;
+  border-radius: 5px;
+  background-color: skyblue;
+  padding: 5px 10px;
+  color: white;
+  margin: 0 auto;
+  transition: background-color linear 250ms;
+}
+.btnOn:hover {
+  background-color: blueviolet;
+}
+.valueName {
+  font-weight: 700;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.valueNumber {
+  font-weight: 700;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.inputName {
+  margin-left: 24px;
+}
+.inputNumber {
+  margin-left: 10px;
+}

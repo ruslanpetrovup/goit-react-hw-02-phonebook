@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+body {
+  background-color: rgb(196, 202, 112);
+  font-family: 'PT Sans', sans-serif;
+}
+ul,
+li,
+a,
+p,
+h1,
+h2 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
